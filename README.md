@@ -7,3 +7,4 @@ Grid: bootstrap
 Front-End: JavaScript
 Plugins: JQuery
 Copiright: Права на копирование разрешены
+![Image alt](https://github.com/{bondarsasha}/{newsPaper}/raw/{master}/{img}/project_skin.jpg)
