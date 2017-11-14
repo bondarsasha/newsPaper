@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%; }
+  html body {
+    background: #fff;
+    color: #000; }
+
+#nav {
+  height: 50px;
+  margin: 30px 0 0 0;
+  background: #fefefe;
+}
+.slider {
+  height: 250px;
+  border: .1rem solid #000;
+  margin: 0 10px 0 0;
+}
+.video {
+  padding: 0;
+  height: 250px;
+}
+.search {
+  height: 30px;
+  padding:0;
+  margin-top: 50px;
+}
+.sign {
+  height: 100px;
+  padding: 0;
+  margin-top: 20px;
+}
+.weather {
+  height: 100px;
+  border: .1rem solid #000;
+
+}
+.course_Val {
+  height: 70px;
+  border: .1rem solid #000;
+}
+#Top_New_Slider {
+  margin: 50px 0 0 0;
+}
+#main {
+  margin: 50px;
+}
