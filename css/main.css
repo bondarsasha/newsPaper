@@ -1,11 +1,18 @@
 html {
   font-size: 62.5%; }
   html body {
-    background: #fff;
+    background-color: #f0f3f5;
     color: #000; }
+
+    /*-----Хедер--------*/
+
 #header {
   height: 80px;
-  background: #969696;
+  background-color: #5d6469;
+}
+.logo {
+  text-transform: uppercase;
+  color: #fefefe;
 }
 .search_in {
   height: 30px;
@@ -20,15 +27,16 @@ html {
 }
 .sign_in {
   text-align: center;
-  color: #000;
-  font-size: 20px;
+  text-transform: uppercase;
+  color: #fefefe;
+  font-size: 18px;
 }
 .sign_in:hover {
   text-decoration: none;
 }
-#nav {
-  background-color: #fafdfa;
-}
+
+    /*---------навигация--------*/
+
 .info {
   display: inline-block;
   text-transform: uppercase;
@@ -41,8 +49,13 @@ html {
   background-color: #357ebd;
   color: #fff;
 }
+
+     /*----------Слайдер, Видио, Курс Валют-----------*/
+
 #Top_New_Slider {
+  height: 300px;
   margin: 50px 0 0 0;
+  background-color: transparent;
 }
 .slider {
   height: 250px;
@@ -53,12 +66,58 @@ html {
   padding: 0;
   height: 250px;
 }
-.course_Val {
+.Weather {
   height: 250px;
-  width: 300px;
+}
+.Weather {
+  height: 250px;
   margin: 0 0 0 30px;
   border: .1rem solid #000;
 }
+.course_Val {
+  height: 250px;
+  margin: 0 0 0 30px;
+  border: .1rem solid #000;
+}
+
+    /*---------Мейн-------------*/
+
 #main {
   margin: 50px;
+}
+
+
+   /*--------Футер---------*/
+
+#footer {
+  height: 150px;
+  background-color: #666666;
+  color: #fff;
+}
+.Contacts {
+  text-transform: uppercase;
+  padding: 20px;
+}
+.Right {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+.Ownership {
+  text-align: center;
+  font-size: 12px;
+}
+.Developer {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+.dev_contact {
+  color: #fefefe;
+}
+.dev_contact:hover {
+  text-decoration: none;
+  color: #fefefe;
 }
