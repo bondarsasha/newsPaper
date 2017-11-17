@@ -4,7 +4,37 @@ html {
     background-color: #f0f3f5;
     color: #000; }
 
-    /*-----Хедер--------*/
+    /*---------навигация--------*/
+
+.info {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  list-style-type: none;
+  transition: .3s all;
+}
+.info:hover {
+  text-decoration: none;
+  background-color: #357ebd;
+  color: #fff;
+}
+
+  /*-------Бургер меню---------*/
+
+label[for="nav-trigger"] {
+  position: fixed;
+  left: 25px;
+  top: 20px;
+  z-index: 2;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  background-image: url("../img/burger-button.png");
+  background-size: contain;
+}
+
+/*-----Хедер--------*/
 
 #header {
   height: 80px;
@@ -35,62 +65,46 @@ html {
   text-decoration: none;
 }
 
-    /*---------навигация--------*/
-
-.info {
-  display: inline-block;
-  text-transform: uppercase;
-  padding: 20px 10px;
-  list-style-type: none;
-  transition: .3s all;
-}
-.info:hover {
-  text-decoration: none;
-  background-color: #357ebd;
-  color: #fff;
-}
-
      /*----------Слайдер, Видио, Курс Валют-----------*/
 
 #Top_New_Slider {
   height: 300px;
-  margin: 50px 0 0 0;
-  background-color: transparent;
+  margin: 30px 0 0 0;
 }
 .slider {
-  height: 250px;
+  height: 350px;
   border: .1rem solid #000;
-  margin: 0 30px 0 0;
+  margin: 0 60px 0 0;
 }
 .video {
   padding: 0;
-  height: 250px;
-}
-.Weather {
-  height: 250px;
-}
-.Weather {
-  height: 250px;
-  margin: 0 0 0 30px;
-  border: .1rem solid #000;
-}
-.course_Val {
-  height: 250px;
-  margin: 0 0 0 30px;
-  border: .1rem solid #000;
+  height: 350px;
 }
 
     /*---------Мейн-------------*/
 
-#main {
-  margin: 50px;
+.main_news {
+  margin: 50px 0 0 0;
 }
-
+.main_paragraf {
+  font-size: 18px;
+}
+.Weather {
+  height: 200px;
+  margin: 50px 0 0 0;
+  border: .1rem solid #000;
+}
+.course_Val {
+  height: 200px;
+  margin: 50px 0 0 50px;
+  border: .1rem solid #000;
+}
 
    /*--------Футер---------*/
 
 #footer {
   height: 150px;
+  margin: 50px 0 0 0;
   background-color: #666666;
   color: #fff;
 }
