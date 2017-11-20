@@ -64,6 +64,50 @@ html {
 .sign_in:hover {
   color: #fefefe;
 }
+#modal_sign {
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+#sign_form {
+  position: relative;
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #eee;
+  border-radius: 10px;
+  padding: 25px 15px;
+}
+#sign_form h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 5px;
+}
+.form-grup{
+ margin-bottom: 15px;
+}
+.form-grup label{
+ padding-top: 4px;
+}
+.form-grup label:after{
+ content: "*";
+ color: red;
+}
+.form-grup input[type="submit"]{
+ padding: 4px;
+ border-radius: 5px;
+ outline: none;
+}
 .weather, .valute {
   margin: 10px 0 0 10px;
   padding: 20px 0;
@@ -124,6 +168,28 @@ html {
   padding: 0;
   margin: 0;
 }
+.control-panel {
+  position: absolute;
+  height: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.control-panel span {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #fefefe;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#activeBtn {
+  background-color: #000;
+}
+.control-panel span:hover {
+  background-color: #357ebd;
+}
 .video {
   padding: 0;
   margin: 0 0 0 60px;
@@ -143,6 +209,16 @@ html {
   margin: 50px 0 0 0;
   padding: 40px;
   background-color: #666666;
+  box-shadow:
+  inset 0 0 100px hsla(0,0%,0%,.2),
+  inset 0px 1px 5px #999,
+  inset 0px 2px 0px #888,
+  inset 0px 3px 0px #777,
+  inset 0px 4px 0px #666,
+  inset 0px 5px 0px #555,
+  inset 0px 6px 0px #444,
+  inset 0px 7px 0px #333,
+  inset 0px 8px 7px #001135;
 }
 .end {
   font-size: 12px;
