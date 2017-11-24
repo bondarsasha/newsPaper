@@ -13,8 +13,9 @@ function ready() {
       });
 
 //slider
-      var imgArr = ['1.jpg', '2.jpg', '3.jpg'];
+
       var slider = document.getElementById('images');
+      var imgArr = ['1.jpg', '2.jpg', '3.jpg'];
       slider.src = "img/" + imgArr[0];
 
       var prevBtn = document.getElementById('prevBtn');
